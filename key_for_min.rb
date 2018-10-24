@@ -10,10 +10,10 @@ def key_for_min_value(name_hash)
       if number < smallest && number < new_smallest
         number = new_smallest
       end
-    end
   
-  if number = new_smallest
+  if number == new_smallest
     name
   end
+end
 end
 end
