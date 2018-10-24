@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
       end
     end
   
-  if number == new_smallest
+  if number = new_smallest
     name
   end
 end
