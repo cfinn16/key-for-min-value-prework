@@ -11,9 +11,9 @@ def key_for_min_value(name_hash)
         number = new_smallest
       end
     end
-  end
   
   if number == new_smallest
     name
   end
+end
 end
